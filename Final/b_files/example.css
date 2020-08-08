@@ -1,0 +1,28 @@
+
+div.slide_opening {
+	height: 145px; 
+	text-align: justify;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,0.75); padding:1% 0 0 0; overflow:hidden;
+}
+
+#additional-menu {
+	height: 30px;
+	padding-left: 35px;
+}
+
+#additional-menu > div {
+	width: 25px;
+	text-align: center;
+	margin: 10px 0px 10px 10px;
+	float: left;
+	font-family: Helvetica,Arial,sans-serif;
+	cursor: pointer;
+	background: #cccccc;
+}
+
+#additional-menu > div.mkslider-external-navigator-item-current {
+	color: #ffffff;
+	background: #5c94cc;
+}
